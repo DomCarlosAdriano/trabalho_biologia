@@ -1,0 +1,26 @@
+/* =================  Media Queries  ================= */
+
+/* mobile */
+@media (min-width: 320px) {}
+  
+/* tablet */
+@media (min-width: 768px) {
+
+   h1{
+      font-size: 3.7rem;
+   }
+
+   .titulos{
+      font-size: 2.5rem;
+   }
+
+   .textos{
+      font-size: 1.4rem;
+   }
+}
+
+/* desktop medium */
+@media (min-width: 1024px) {}
+
+/* desktop large */
+@media (min-width: 1200px) {}

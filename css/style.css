@@ -1,0 +1,134 @@
+/* ========= GLOBAL ========= */
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Montserrat', sans-serif;
+}
+
+html{
+   overflow-x: hidden;
+}
+
+.wrap{
+   padding-inline: 7%;
+}
+
+body{
+  background: whitesmoke;
+}
+
+/* ========= HEADER ========= */
+
+
+header{
+   width: 100vw;
+   background: black;
+}
+
+header nav{
+   display: flex;
+   align-items: center;
+   height: 70px;
+   background: #88C540;
+}
+
+header nav p{
+   color: #0074E4;
+   font-size: 1.3rem;
+   font-weight: 800;
+}
+
+header nav i{
+   font-size: 1.5rem;
+}
+
+.capa{
+   background-image: url("../img/backgrondBio.png");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   opacity: 0.7; 
+
+   width: 100vw;
+   height: 93vh; 
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   justify-content: center;
+}
+
+ h1{
+   width: 100%;
+   position: absolute;
+   top: 45%;
+   color: wheat;
+   font-size: 2.8rem;
+   font-weight: 800;
+   text-align: center;
+   text-shadow: 2px 2px 4px rgb(0, 0, 0);
+   letter-spacing: 1px;
+
+}
+
+
+/* ========= MAIN ========= */
+main{
+   height: fit-content;
+}
+
+.titulos{
+   color: #0074E4;
+   font-size: 2rem;
+   font-weight: 700;
+   text-align: left;
+   width: 100%;
+}
+
+.textos{
+   font-weight: 500;
+   font-size: 1rem;
+   width: 100%;
+}
+
+.imagens-ilustracao{
+   width: 95%;
+   border-radius: 8px;
+   margin-top: 2rem;
+}
+
+figcaption{
+   font-weight: 200;
+   font-size: 0.9rem;
+   width: 100%;
+   text-align: center;
+   margin-bottom: 2rem;
+  
+}
+.sec{
+   padding-top: 5rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 2rem;
+
+}
+
+
+
+
+
+/* ========= FOOTER ========= */
+ footer{
+   background: #333333;
+   width: 100vw;
+   height: 130px;
+   margin-top: 5rem;
+   color: #ffffff;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
